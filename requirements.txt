@@ -1,0 +1,7 @@
+flask
+langchain>=0.3.26
+langchain-community>=0.3.27
+langchain-google-genai>=0.0.5
+faiss-cpu
+sentence-transformers
+huggingface_hub
