@@ -5,7 +5,7 @@ from langchain.embeddings import HuggingFaceEmbeddings
 from langchain.chains import RetrievalQA
 
 # 1. Set Gemini API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyC4cz2Jysi_CPBo_DeS_O6dYDHQWkfIaGs"  # Replace with your actual key
+os.environ["GOOGLE_API_KEY"] = "#"  # Replace with your actual key
 
 # 2. Load saved FAISS vector index (must match embedding model used in Colab)
 embeddings = HuggingFaceEmbeddings()

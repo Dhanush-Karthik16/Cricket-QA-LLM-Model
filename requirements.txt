@@ -5,3 +5,4 @@ langchain-google-genai>=0.0.5
 faiss-cpu
 sentence-transformers
 huggingface_hub
+git push -u origin main
