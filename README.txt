@@ -29,28 +29,13 @@ cricket_chatbot/
 
 ### 🔹 1. Install dependencies
 
-\`\`\`bash
 pip install -r requirements.txt
-\`\`\`
 
 ### 🔹 2. Run the Flask app
 
-\`\`\`bash
 python app.py
-\`\`\`
 
 Then open: [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-
-## 🔑 Gemini API Key
-
-Set your key like this:
-
-\`\`\`python
-import os
-os.environ[\"GEMINI_API_KEY\"] = \"your-api-key-here\"
-\`\`\`
-
-[→ Get Gemini API Key](https://makersuite.google.com/app)
 
 ## 🧠 How It Works (LangChain RAG)
 
